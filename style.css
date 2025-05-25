@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f9fbfd;
+    color: #222;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #ffffff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.nav-link {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    text-decoration: none;
+    color: #222;
+}
+
+.nav-link a {
+    text-decoration: none;
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 60px 8%;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.profile-picture {
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0d47a1;
+}
+
+.hero-text p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.primary {
+  background: #1976d2;
+  color: white;
+}
+
+.secondary {
+  border: 2px solid #1976d2;
+  color: #1976d2;
+  background: white;
+}
+
+.about{
+  padding: 40px 8%;
+}
+
+.skills{
+  padding: 40px 8%;
+}
+
+.experience {
+  padding: 40px 8%;
+}
+
+.education {
+  padding: 40px 8%;
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: #0d47a1;
+  margin-bottom: 20px;
+}
+
+.about ul {
+  list-style: disc inside;
+}
+
+.skill-grid, .exp-grid, .edu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.skill-grid div {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+}
+
+.edu-grid div{
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+}
+
+.exp-grid div{
+    background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #e3f2fd;
+  margin-top: 40px;
+}
